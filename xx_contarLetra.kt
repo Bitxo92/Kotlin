@@ -36,9 +36,9 @@ fun main(){
 //buscar una subcadena dentro de una cadena
     var cadena: String= "Cadena  bu a buscar  busc"
 
-    var buscar = "buscar"
+   var buscar = "buscar"
 
-   val position=cadena.indexOf(buscar)
+   var position=cadena.indexOf(buscar)
 
    if(position!=-1){
     println("$buscar esta en la posicion $position")
