@@ -113,10 +113,14 @@ for(i in miArray14){
 
 //Crear un array de 100 enteros con numeros aleatorios entre 1 y 1000
 val random = Random
-
-val numerosAleatorios = IntArray(100,{e->random.nextInt(1,1001)})
+//val numerosAleatorios = IntArray(100,{e->random.nextInt(1,1001)})
+val numerosAleatorios = IntArray(100){random.nextInt(1,1001)}
 
 //imprimir valores del array alaeatorio
 println("Array de numeros aleatorios:")
 println(numerosAleatorios.contentToString())
+
+
+
+
 }
